@@ -12,7 +12,7 @@ For at kunne bruge scriptet forudsættes det først og fremmest, at du har Pytho
 Har du ikke Python installeret, så download det her: https://www.python.org/ 
 
 ### PyAutoGUI
-Derudover forudsætter brugen af scriptet, at man med Pythons package manager, "pip", har installeret Python pakken kaldet "PyAutoGUI".
+Derudover forudsætter brugen af scriptet, at man med Pythons package manager, "pip", har installeret Python pakken kaldet "[PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/)".
 
 Har man ikke det, så kan man køre følgende kommando for at installere "PyAutoGUI" vhja. af filen "requirements.txt" som dette repo indeholder:
 
