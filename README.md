@@ -4,7 +4,7 @@ Hvis du har brug et (super) irriterende script med et pop-up vindue til at minde
 ## Forudsætninger for at bruge scriptet
 For at kunne bruge scriptet er der følgende 2 forudsætninger, som hver beskrives og gennemgås i nedenstående:
 1. Have Python installeret
-2. Have Python pakken "pyAutoGUI" installeret
+2. Have Python pakken "PyAutoGUI" installeret
 
 ### Python
 For at kunne bruge scriptet forudsættes det først og fremmest, at du har Python installeret.
