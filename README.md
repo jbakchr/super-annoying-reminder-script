@@ -42,7 +42,10 @@ Trykker man på "Nej" knappen, så vil pop-up vinduet fremkommer hver gang det k
 ## Om automatiseret kørsel af scriptet
 På nuværende er tidspunkt er en automatiseret kørsel af scriptet kun testet på Mac.
 
-Hvis man på en Mac vil køre scriptet automatisk - fx hver dag på et givent tidspunkt - så skal det køres vhja. af "sub.py" scriptet, da brugen af pyautogui ellers ikke virker.
+Hvis man på en Mac vil køre scriptet automatisk - fx hver dag på et givent tidspunkt - så skal det køres vhja. af "sub.py" filen, da brugen af pyautogui ellers ikke virker.
 
-I crontab (eller hvordan man nu siger det) ville et eksempel på automatisk kørsel af scriptet således være at sætte det op som følger:
+I crontab (eller hvordan man nu siger det) ville et eksempel på automatisk kørsel af scriptet således være at sætte det op som følger (udskift her frasen "<path-to-script>" med stien til mappen med scriptet):
 
+```bash
+10 8-12 * * * cd <path-to-script> && /usr/bin/python3 sub.py "tage medicin"
+```
