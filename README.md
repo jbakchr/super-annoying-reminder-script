@@ -49,3 +49,9 @@ I crontab (eller hvordan man nu siger det) ville et eksempel på automatisk kør
 ```bash
 10 8-12 * * * cd <path-to-script> && /usr/bin/python3 sub.py "tage medicin"
 ```
+
+### Hvordan man kører scripts automatisk via 'crontab' på Mac
+Google fx frasen "how to schedule tasks with crontab" for at finde ud af, hvordan man automatisk kører scripts på en Mac.
+
+### Hvordan man kører scripts automatisk via 'Task Scheduler' på Windows
+Google fx frasen "how to schedule tasks in task scheduler" for at finde ud af, hvordan man automatisk kører scripts på Windows.
