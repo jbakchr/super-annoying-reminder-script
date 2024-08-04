@@ -1,17 +1,22 @@
-import sys
 import datetime
+import sys
+import os
+
 import pyautogui
 
 
 def get_last_script_run_date():
-    with open("./last-run.txt", "r") as file:
+    cur_dir = os.getcwd()
+
+    with open(os.path.join(cur_dir, "last-run.txt")) as file:
         return file.read()
 
 
 def check_for_reminder(today, last_run, args):
     if today != last_run:
         answer = pyautogui.confirm(
-            f"Har du husket at {args} ?", "Reminder!", buttons=['Ja', 'Nej'])
+            f"Har du husket at {args} ?", "Reminder!", buttons=["Ja", "Nej"]
+        )
         if answer == "Ja":
             with open("./last-run.txt", "w") as file:
                 file.write(str(datetime.date.today()))
