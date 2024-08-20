@@ -55,3 +55,6 @@ Google fx frasen "how to schedule tasks with crontab" for at finde ud af, hvorda
 
 ### Hvordan man kører scripts automatisk via 'Task Scheduler' på Windows
 Google fx frasen "how to schedule tasks in task scheduler" for at finde ud af, hvordan man automatisk kører scripts på Windows.
+
+## Bidragsydere (eng: Contributors)
+* [Jonas Bak Phillipson](https://github.com/jbakchr)
